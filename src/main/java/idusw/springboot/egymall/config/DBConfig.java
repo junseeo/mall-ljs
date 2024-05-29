@@ -23,6 +23,7 @@ public class DBConfig {
 
     @Bean
     public DataSource datasource() {
+        // 설정
         return DataSourceBuilder.create()
                 .url(url)
                 .username(username)
